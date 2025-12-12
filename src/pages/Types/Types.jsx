@@ -4,10 +4,10 @@ const Types = () => {
     return (
         <div>
             <form action="">
-                <div>
-                    <label htmlFor="type">Name</label>
-                    <input type="text" id={'type'}  value={}/>
-                </div>
+                {/*<div>*/}
+                {/*    <label htmlFor="type">Name</label>*/}
+                {/*    <input type="text" id={'type'} />*/}
+                {/*</div>*/}
             </form>
         </div>
     );
