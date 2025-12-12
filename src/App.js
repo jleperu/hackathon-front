@@ -1,6 +1,7 @@
 import {Menubar} from "./components/menubar";
 import {useState, useEffect} from "react";
 import axios from "axios";
+import {Collaborators} from "./pages/collaborators";
 
 function App() {
   const [collaborators, setCollaborators] = useState([]);
@@ -19,6 +20,7 @@ function App() {
         
       </header>
       <Menubar />
+      <Collaborators />
     </div>
   );
 }
