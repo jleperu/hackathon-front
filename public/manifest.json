@@ -1,25 +1,60 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "My Pass - Gestionnaire de Mots de Passe",
+  "short_name": "MyPass",
+  "description": "Gestionnaire de mots de passe sécurisé et intuitif",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#4F46E5",
+  "theme_color": "#4F46E5",
+  "categories": ["productivity", "utilities", "security"],
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "favicon_32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "logo192.png",
+      "src": "favicon_64x64.png",
+      "sizes": "64x64",
       "type": "image/png",
-      "sizes": "192x192"
+      "purpose": "any"
     },
     {
-      "src": "logo512.png",
+      "src": "favicon_180x180.png",
+      "sizes": "180x180",
       "type": "image/png",
-      "sizes": "512x512"
+      "purpose": "any"
+    },
+    {
+      "src": "favicon_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "shortcuts": [
+    {
+      "name": "Ajouter un mot de passe",
+      "short_name": "Ajouter",
+      "description": "Ajouter un nouveau mot de passe",
+      "url": "/add",
+      "icons": [{ "src": "favicon_192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": []
 }
